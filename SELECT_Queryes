@@ -32,6 +32,41 @@ IS NOT NULL -> data into the value.
 1. employees without  manager 
 SELECT * FROM employees WHERE manager_id IS NULL;
 
+Sorting Operation:-
+-------------------
+1.To fetch the data in asending order (low to high)
+select * from employees order by salary asc;
+2.To fetch the data in descending order (high to low)
+select * from employees order by salary desc;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
