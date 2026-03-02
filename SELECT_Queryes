@@ -24,3 +24,14 @@ SELECT * FROM employees WHERE emp_name LIKE 'A%';
 SELECT * FROM employees WHERE emp_name LIKE '%n';
 3. names contain with ra.
 SELECT * FROM employees WHERE emp_name LIKE '%ra%';
+
+Null operation:-
+----------------
+NULL -> empty data. 
+IS NOT NULL -> data into the value.
+1. employees without  manager 
+SELECT * FROM employees WHERE manager_id IS NULL;
+
+
+
+
