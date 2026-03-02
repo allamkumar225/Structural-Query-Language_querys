@@ -47,7 +47,8 @@ select SUM(salary) from employees; ---> It count all members salary from the tab
 SELECT AVG(salary) FROM employees; -> select AVG(salary) from employees.
 3.Highest salary
 select MAX(salary) from employees; -> It return the data from highest salary.
-
+4.count employees.
+select count(*) from employees; -> it count the all number of users from the table.
 
 
 
