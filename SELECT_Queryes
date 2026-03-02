@@ -39,6 +39,15 @@ select * from employees order by salary asc;
 2.To fetch the data in descending order (high to low)
 select * from employees order by salary desc;
 
+aggration operation:-
+--------------------
+1. Total salary
+select SUM(salary) from employees; ---> It count all members salary from the table.
+2.Average salary:- sum of values/ numbers of valuses
+SELECT AVG(salary) FROM employees; -> select AVG(salary) from employees.
+3.Highest salary
+select MAX(salary) from employees; -> It return the data from highest salary.
+
 
 
 
