@@ -1,0 +1,18 @@
+now suppose i have table in that 100 records but unique is id from the table i want to get the data from the table even or or by using yhis record sample
+
+Suppose Table Structure:-
+table1
+-------
+id   | name
+-------------
+1    | A
+2    | B
+3    | C
+...
+100  | Z
+-------------------------------
+example 1: -Get ODD records
+select * from table1 where columnname % 2 !=0 ;
+example 2:- Get EVEN records
+even data
+select * from table1 where columnname % 2 = 0; 
