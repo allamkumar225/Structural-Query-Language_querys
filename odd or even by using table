@@ -16,3 +16,6 @@ select * from table1 where columnname % 2 !=0 ;
 example 2:- Get EVEN records
 even data
 select * from table1 where columnname % 2 = 0; 
+
+example 3:- To get random data by using Randam()
+select * from table1 where order by Random() ;
