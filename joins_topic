@@ -8,3 +8,9 @@ joins :- A join is a query that combines rows from two or more tables , views, m
 6. ANTI JOIN
 
 --> INNER JOIN:- INNER JOIN is used to combine two tables and return only the rows where the join condition matches. Non-matching rows are NOT included.
+Inner join can be classified into two types.
+I. Equi join:- Equi join is a type in inner join where tables are joined by equal(=) operator.
+example:- select A.name,b.product from A INNER JOIN B on A.id = b.id
+A,B-> tablename  | name, product,id -> columname 
+II. NON Equi Join:- Non Equi join is a join where tables are joined other than equality such as >, <, >=, <=, BETWEEN.
+example:- select A.id,B.id FROM A INNER JOIN B on A.value < B.value;
