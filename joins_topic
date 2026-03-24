@@ -1,0 +1,10 @@
+joins :- A join is a query that combines rows from two or more tables , views, materialized view.
+===> TYPES OF JOINS 
+1. INNER JOIN -> matched data only
+2. OUTER JOIN
+3. SELF JOIN
+4. CROSS JOIN
+5. SEMI JOIN
+6. ANTI JOIN
+
+--> INNER JOIN:- INNER JOIN is used to combine two tables and return only the rows where the join condition matches. Non-matching rows are NOT included.
